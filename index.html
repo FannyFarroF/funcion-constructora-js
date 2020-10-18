@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Js-Función Constructora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <section id="table">
+        <div class="container">
+            <div class="box-content">
+
+                <h1>FUNCIÓN CONSTRUCTORA </h1>
+                <hr class="line">
+                <div class="box-table">
+                    <div class="header-box space-between center">
+                        <div class="num-obj flex">
+                            <p>Cantidad de Registros: </p>
+                            <p class="num">0</p>
+                        </div>
+                        <button id="btnAdd" class="redireccionar">Generar</button>
+                    </div>
+                    <div class="body-box">
+                        <div class="header-body-box flex">
+                            <div class="item-h-b">
+                                #
+                            </div>
+                            <div class="item-h-b">
+                                Marca
+                            </div>
+                            <div class="item-h-b">
+                                Modelo
+                            </div>
+                            <div class="item-h-b">
+                                Año
+                            </div>
+                            <div class="item-h-b">
+                                Acciones
+                            </div>
+                        </div>
+                        <div class="body-body-box">
+                            <ul class="contenedor-li">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal-create" class="modal">
+        <div class="container">
+
+            <div class="box-modal">
+                <div class="header-modal flex">
+                    <h2 class="title-modal">Nuevo Elemento</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="content-modal">
+                    <form action="" class="formulario">
+
+                        <div class="form-group">
+                            <label for="marca">Marca</label>
+                            <input type="text" name="" id="marca">
+                        </div>
+                        <div class="form-group">
+                            <label for="modelo">Modelo</label>
+                            <input type="text" name="" id="modelo">
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Año</label>
+                            <input type="text" name="" id="year">
+                        </div>
+                        <button class="redireccionar add_reg">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
